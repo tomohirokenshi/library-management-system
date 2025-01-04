@@ -19,10 +19,5 @@ This project, undertaken for the Embedded Systems (CPE16) course, involved the d
 * **Error Handling:** Implements robust error handling mechanisms to address potential issues like duplicate entries, missing data, and database connection errors.
 * **Modular Design:** Employs a modular design with well-defined functions, promoting code maintainability and future extensibility.
 
-**Learning Outcomes:**
-
-* **Embedded Systems Fundamentals:** Gained practical experience in working with a microprocessor (Raspberry Pi) and integrating hardware (RFID reader) with software.
-* **Database Management:** Learned to utilize SQLite for data storage and retrieval, implementing CRUD (Create, Read, Update, Delete) operations for efficient data management.
-* **Python Programming:** Enhanced proficiency in Python programming, including GUI development using the tkinter library and database interaction with SQLite.
-* **System Design and Development:** Developed a comprehensive understanding of the system design process, from conceptualization and hardware selection to software implementation and testing.
-* **[Add other learning outcomes]**
+**Reflection:**
+This project served as a valuable learning experience, providing a practical application of embedded systems concepts. The integration of hardware and software components presented unique challenges, requiring careful consideration of data transfer, signal processing, and error handling. Working with the SQLite database and implementing CRUD operations reinforced the importance of efficient data management within a software system. The project also fostered critical thinking and problem-solving skills as I encountered and overcame various technical hurdles, such as optimizing RFID data processing and ensuring system stability. This hands-on experience has strengthened my understanding of embedded systems development and motivated me to further explore its applications in real-world scenarios. 
