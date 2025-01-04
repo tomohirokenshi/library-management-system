@@ -32,17 +32,17 @@ This project, undertaken for the Embedded Systems (CPE16) course, involved the d
 
 ## Recommendations:
 **Automated Book Data Entry:**
-    * In this project, the book information is manually typed in the system, which is kind of a tedious process for the librarian or faculty handling the system. 
-    * **Recommendation:** Image processing could help in making this process easier. Reading and analyzing the text on the book cover can significantly speed up data entry, and the system could allow for minimal manual editing to correct any errors.
+ * In this project, the book information is manually typed in the system, which is kind of a tedious process for the librarian or faculty handling the system. 
+ * **Recommendation:** Image processing could help in making this process easier. Reading and analyzing the text on the book cover can significantly speed up data entry, and the system could allow for minimal manual editing to correct any errors.
 **Real-time Clock Implementation:**
-    * The project struggles with real-time accuracy. Our testing revealed that shutting down the Raspberry Pi resets the computer's time, requiring manual time and date adjustments each time the system is powered on. 
-    * **Recommendation:** Integrate a Real-Time Clock (RTC) module with the Raspberry Pi. This dedicated hardware component maintains accurate time and date even during power outages, ensuring reliable timekeeping for the library system. 
+ * The project struggles with real-time accuracy. Our testing revealed that shutting down the Raspberry Pi resets the computer's time, requiring manual time and date adjustments each time the system is powered on. 
+ * **Recommendation:** Integrate a Real-Time Clock (RTC) module with the Raspberry Pi. This dedicated hardware component maintains accurate time and date even during power outages, ensuring reliable timekeeping for the library system. 
 **Remote Access and User Authentication:**
-    * The current system is limited to local usage on the Raspberry Pi, restricting its accessibility. 
-    * **Recommendations:**
-        * **Cloud Deployment:** Explore deploying the system on a cloud platform (e.g., AWS, Google Cloud, or a more affordable option like Heroku) to enable remote access.
-        * **Username and Password Authentication:** Implement username and password authentication alongside RFID for enhanced security and to allow students to access their profiles remotely.
-        * **Mobile App Development:** Develop a mobile application that interacts with the cloud-deployed system, allowing students to check borrowing history, book availability, and receive notifications.
+ * The current system is limited to local usage on the Raspberry Pi, restricting its accessibility. 
+ * **Recommendations:**
+     * **Cloud Deployment:** Explore deploying the system on a cloud platform (e.g., AWS, Google Cloud, or a more affordable option like Heroku) to enable remote access.
+     * **Username and Password Authentication:** Implement username and password authentication alongside RFID for enhanced security and to allow students to access their profiles remotely.
+     * **Mobile App Development:** Develop a mobile application that interacts with the cloud-deployed system, allowing students to check borrowing history, book availability, and receive notifications.
 
 ## Reflections
 This project served as a valuable learning experience, providing a practical application of embedded systems concepts. The integration of hardware and software components presented unique challenges, requiring careful consideration of data transfer, signal processing, and error handling. Working with the SQLite database and implementing CRUD operations reinforced the importance of efficient data management within a software system. The project also fostered critical thinking and problem-solving skills as I encountered and overcame various technical hurdles, such as optimizing RFID data processing and ensuring system stability. This hands-on experience has strengthened my understanding of embedded systems development and motivated me to further explore its applications in real-world scenarios. 
