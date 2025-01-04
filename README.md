@@ -19,5 +19,16 @@ This project, undertaken for the Embedded Systems (CPE16) course, involved the d
 * **Error Handling:** Implements robust error handling mechanisms to address potential issues like duplicate entries, missing data, and database connection errors.
 * **Modular Design:** Employs a modular design with well-defined functions, promoting code maintainability and future extensibility.
 
+## Dependencies
+* **Python:** The primary programming language for the system.
+* **tkinter:** Python's standard GUI library for creating the user interface.
+* **sqlite3:** Python library for interacting with SQLite databases.
+* **RPi.GPIO:** Python library for controlling GPIO pins on the Raspberry Pi, used for interfacing with the RFID reader.
+* **mfrc522:** Python library for interacting with the MFRC522 RFID reader module.
+* **pandas:** Python library for data manipulation and analysis.
+* **datetime:** Python library for working with dates and times.
+* **PIL (Pillow):** Python Imaging Library for image processing and display.
+* **smtplib:** Python library for sending emails. 
+
 ## Reflections
 This project served as a valuable learning experience, providing a practical application of embedded systems concepts. The integration of hardware and software components presented unique challenges, requiring careful consideration of data transfer, signal processing, and error handling. Working with the SQLite database and implementing CRUD operations reinforced the importance of efficient data management within a software system. The project also fostered critical thinking and problem-solving skills as I encountered and overcame various technical hurdles, such as optimizing RFID data processing and ensuring system stability. This hands-on experience has strengthened my understanding of embedded systems development and motivated me to further explore its applications in real-world scenarios. 
