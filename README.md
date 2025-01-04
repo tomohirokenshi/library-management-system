@@ -34,10 +34,10 @@ This project, undertaken for the Embedded Systems (CPE16) course, involved the d
 * **Automated Book Data Entry:**
     * In this project, the book information is manually typed in the system, which is kind of a tedious process for the librarian or faculty handling the system. 
     * **Recommendation:** Image processing could help in making this process easier. Reading and analyzing the text on the book cover can significantly speed up data entry, and the system could allow for minimal manual editing to correct any errors.
-* **Real-time Clock Implementation:**
+**Real-time Clock Implementation:**
     * The project struggles with real-time accuracy. Our testing revealed that shutting down the Raspberry Pi resets the computer's time, requiring manual time and date adjustments each time the system is powered on. 
     * **Recommendation:** Integrate a Real-Time Clock (RTC) module with the Raspberry Pi. This dedicated hardware component maintains accurate time and date even during power outages, ensuring reliable timekeeping for the library system. 
-* **Remote Access and User Authentication:**
+**Remote Access and User Authentication:**
     * The current system is limited to local usage on the Raspberry Pi, restricting its accessibility. 
     * **Recommendations:**
         * **Cloud Deployment:** Explore deploying the system on a cloud platform (e.g., AWS, Google Cloud, or a more affordable option like Heroku) to enable remote access.
