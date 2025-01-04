@@ -1,4 +1,4 @@
-# Library Management System (CPE16)
+# Library Management System
 
 This project, undertaken for the Embedded Systems (CPE16) course, involved the development of a library management system specifically designed for the Laguna State Polytechnic University College of Engineering. The primary objective was to gain practical experience in embedded systems development, specifically exploring the interplay between hardware and software components. 
 
