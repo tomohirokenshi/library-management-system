@@ -5,9 +5,7 @@ This project, undertaken for the Embedded Systems (CPE16) course, involved the d
 **System Architecture:**
 
 * **Microprocessor:** The core of the system utilized a Raspberry Pi single-board computer, serving as the central processing unit. 
-* **Sensors:**
-  * An RFID reader was employed as the primary sensor for user authentication, leveraging the existing RFID tags embedded in the student and faculty IDs.
-  * RFID stickers were affixed to each book, enabling the system to identify and track individual library items.
+* **Sensors:** An RFID reader was employed as the primary sensor for user authentication, leveraging the existing RFID tags embedded in the student and faculty IDs. While, RFID stickers were affixed to each book, enabling the system to identify and track individual library items.
 * **Database:** SQLite was chosen as the database management system, providing a lightweight and efficient solution for storing and retrieving system data.
 * **Software:** The system was programmed in Python, utilizing the tkinter library to create a user-friendly graphical user interface (GUI) for interaction.
 
