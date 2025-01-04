@@ -31,7 +31,7 @@ This project, undertaken for the Embedded Systems (CPE16) course, involved the d
 * **smtplib:** Python library for sending emails. 
 
 ## Recommendations:
-* **Automated Book Data Entry:**
+**Automated Book Data Entry:**
     * In this project, the book information is manually typed in the system, which is kind of a tedious process for the librarian or faculty handling the system. 
     * **Recommendation:** Image processing could help in making this process easier. Reading and analyzing the text on the book cover can significantly speed up data entry, and the system could allow for minimal manual editing to correct any errors.
 **Real-time Clock Implementation:**
