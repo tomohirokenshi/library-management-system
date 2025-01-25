@@ -48,8 +48,5 @@ This project, undertaken for the Embedded Systems (CPE16) course, involved the d
 This project served as a valuable learning experience, providing a practical application of embedded systems concepts. The integration of hardware and software components presented unique challenges, requiring careful consideration of data transfer, signal processing, and error handling. Working with the SQLite database and implementing CRUD operations reinforced the importance of efficient data management within a software system. The project also fostered critical thinking and problem-solving skills as I encountered and overcame various technical hurdles, such as optimizing RFID data processing and ensuring system stability. This hands-on experience has strengthened my understanding of embedded systems development and motivated me to further explore its applications in real-world scenarios.
 
 <div align="center">
-  <img src="[https://via.placeholder.com/500](https://raw.githubusercontent.com/tomohirokenshi/library-management-system/refs/heads/main/Bro%20it%E2%80%99s%20a%20canon%20event.png)" alt="Canon Event" width="500">
+  <img src="https://raw.githubusercontent.com/tomohirokenshi/library-management-system/refs/heads/main/Bro%20it%E2%80%99s%20a%20canon%20event.png" alt="Canon Event" width="500">
 </div>
-
-
-![CRUD Meme](https://raw.githubusercontent.com/tomohirokenshi/library-management-system/refs/heads/main/Bro%20it%E2%80%99s%20a%20canon%20event.png)
